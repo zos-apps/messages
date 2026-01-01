@@ -1,0 +1,78 @@
+{
+  "name": "@zos-apps/messages",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.messages",
+    "name": "Messages",
+    "icon": "💬",
+    "category": "communication",
+    "description": "Messaging application",
+    "permissions": [],
+    "window": {
+      "defaultSize": {
+        "width": 800,
+        "height": 600
+      },
+      "resizable": true
+    },
+    "about": "Messaging application",
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/messages"
+    },
+    "featured": false,
+    "tags": [
+      "communication",
+      "messages"
+    ],
+    "releaseDate": "2025-12-28",
+    "support": "https://github.com/zos-apps/messages/issues",
+    "changelog": "https://github.com/zos-apps/messages/releases"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@zos-apps/config": "workspace:*",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "description": "Messaging application",
+  "homepage": "https://zos-apps.github.io/messages",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/messages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/messages/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "messages",
+    "macos",
+    "desktop"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
