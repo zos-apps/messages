@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import type { AppProps } from '@zos-apps/config';
 import { useLocalStorage } from '@zos-apps/config';
 import { Edit3, Search, Phone, Video, MoreHorizontal } from 'lucide-react';
